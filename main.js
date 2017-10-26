@@ -60,11 +60,11 @@ function draw(){
     ctx.lineWidth = 2;
 
   } else {
-    ctx.fillStyle = 'white';
+    //ctx.fillStyle = 'white';
     //ctx.fillRect(0,0,canvas.width,canvas.height);
-    ctx.font = 'bold 20px Futura';
-    ctx.fillStyle = '#f88366';
-    ctx.lineWidth = 2;
+    //ctx.font = 'bold 20px Futura';
+    //ctx.fillStyle = '#f88366';
+    //ctx.lineWidth = 2;
     ctx.fillText('ʅ(‾◡◝)', mouseX, mouseY);
 
 }
